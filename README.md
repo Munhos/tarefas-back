@@ -1,0 +1,5 @@
+-> git init
+-> git clone https://github.com/Munhos/tarefas-back.git
+-> cd .\tarefas-back\
+-> npm install
+-> npm run dev
