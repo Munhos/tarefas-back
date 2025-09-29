@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Configurações Essenciais para Node e ES Modules */
+    "target": "ES2022",                                /* Define o nível da linguagem de saída. */
+    "module": "NodeNext",                              /* Usa o sistema de módulos moderno do Node.js. */
+    "moduleResolution": "NodeNext",                    /* Define como o TypeScript resolve os módulos (import/export). */
+    "esModuleInterop": true,                           /* ESSENCIAL: Permite importar CommonJS (como o Express) usando a sintaxe import padrão. */
+
+    /* Diretórios e Build */
+    "outDir": "./dist",                                /* Diretório de saída para os arquivos JavaScript compilados. */
+    "rootDir": "./src",                                /* Diretório onde estão os arquivos TypeScript. */
+    
+    /* Configurações de Stricto e Qualidade */
+    "strict": true,                                    /* Habilita todas as opções rigorosas de verificação de tipo. */
+    "skipLibCheck": true,                              /* Pula a verificação de tipo dos arquivos de definição de biblioteca (ex: node_modules). */
+    
+    /* Opções desnecessárias que estavam causando problemas (definidas como 'false' ou removidas) */
+    "verbatimModuleSyntax": false,                     /* Desabilita a sintidez extrema na sintaxe de módulos. */
+    "isolatedModules": false,                          /* Desabilita o modo de módulo isolado. */
+
+    /* Outros */
+    "sourceMap": true,                                 /* Gera arquivos de mapa de código para facilitar o debug. */
+    "forceConsistentCasingInFileNames": true           /* Impede erros causados por nomes de arquivo com letras maiúsculas/minúsculas inconsistentes. */
+  },
+  "include": ["src/**/*"]                              /* Inclui todos os arquivos na pasta src. */
+}
